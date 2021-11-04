@@ -17,6 +17,6 @@ Feature: US1007 editor sayfasina farkli kullanicilar ekleyebilmeliyim
 
     Examples:
 |firstName| lastName|position|office|extension|startDate|salary|
-    |Mehmet   |Akbayir  |QATestLead|İstanbul|58   |12.01.2022|100000|
-    |Nane   |Armut  |QATestLead|Berlin|58   |01.01.2022|100000|
-    |Oguz   |Akkafa  |QATestLead|Newyork|63  |12.01.2022|100000|
+    |Mehmet   |Akbayir  |QATestLead|İstanbul|58   |2022-01-22|100000|
+    |Nane   |Armut  |QATestLead|Berlin|58   |2021-01-02|100000|
+    |Oguz   |Akkafa  |QATestLead|Newyork|63  |2021-01-12|100000|

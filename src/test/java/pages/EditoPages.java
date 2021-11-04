@@ -37,4 +37,10 @@ public class EditoPages {
 
     @FindBy(xpath = "(//button[@class='btn'])")
     public WebElement editorCreateButonu;
+
+    @FindBy (xpath = "(//input[@type='search'])")
+    public WebElement searchKutusu;
+
+    @FindBy(xpath = "(//td[@class='sorting_1'])")
+    public WebElement isimAramaIlkSatir;
 }

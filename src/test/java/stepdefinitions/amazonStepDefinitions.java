@@ -77,4 +77,9 @@ public class amazonStepDefinitions {
     public void sonucSayisiniYazdirir() {
         System.out.println(amazonPage.sonucYazisi.getText());
     }
+
+    @Then("basligin {string} icerdigini test eder")
+    public void basliginIcerdiginiTestEder(String arananKelime) {
+        Assert.assertTrue(Driver.getDriver().getTitle().contains(arananKelime));
+    }
 }

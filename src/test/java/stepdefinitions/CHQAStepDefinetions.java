@@ -40,4 +40,9 @@ CHQAPage chqaPage=new CHQAPage();
             Driver.closeDriver();
 
         }
+
+    @Then("CH basarili giris yapildigini test eder")
+    public void chBasariliGirisYapildiginiTestEder() {
+        Assert.assertTrue(this.chqaPage.girisYapildiKontrolYazi.isDisplayed());
     }
+}

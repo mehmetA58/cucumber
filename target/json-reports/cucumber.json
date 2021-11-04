@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-04T21:37:03.106Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15625200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "TC17 positive login testi",
+        "description": "",
+        "id": "us1011-kullanici-dogru-bilgilerle-sayfaya-girebilmeli;tc17-positive-login-testi",
+        "after": [
+          {
+            "result": {
+              "duration": 856384000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9550178600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"CHOQAUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHOQAUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 714346500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "CH login linkine tiklar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinetions.ch_login_linkine_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 80484900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "CH username kutusuna \"manager\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinetions.ch_username_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72980300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "CH password kutusuna \"Manager1!\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager1!\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinetions.ch_password_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9767606200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "CH login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinetions.ch_login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92817700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "CH basarili giris yapildigini test eder",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinetions.chBasariliGirisYapildiginiTestEder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CHQApositive"
+          }
+        ]
+      }
+    ],
+    "name": "US1011 kullanici dogru bilgilerle sayfaya girebilmeli",
+    "description": "",
+    "id": "us1011-kullanici-dogru-bilgilerle-sayfaya-girebilmeli",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1011_ConcortHotelPositiveLoginTest.feature",
+    "tags": []
+  }
+]

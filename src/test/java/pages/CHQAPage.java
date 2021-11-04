@@ -25,4 +25,7 @@ public class CHQAPage {
 
   @FindBy(xpath="//span[text()='Try again please']")
   public WebElement girisYapilamadiYazisi;
+
+  @FindBy(xpath = "//span[text()='ListOfUsers']")
+  public WebElement girisYapildiKontrolYazi;
 }
