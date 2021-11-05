@@ -30,7 +30,7 @@ CHQAPage chqaPage=new CHQAPage();
 
 
     @Then("giris yapılamadigini test eder")
-    public void giris_yapılamadigini_test_eder () {
+    public void giris_yapilamadigini_test_eder () {
         Assert.assertTrue(chqaPage.girisYapilamadiYazisi.isDisplayed());
 
         }

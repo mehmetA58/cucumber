@@ -1,4 +1,4 @@
-@background
+@Paralel1
 Feature: US1002 amazon Background ile Arama
 
     Background:amazon sayfasina gitme

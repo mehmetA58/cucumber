@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="101.445">
+    <testcase classname="US1001 amazon arama" name="TC01 amazon nutella arama" time="13.942">
+        <system-out>
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And nutella icin arama yapar................................................passed
+Then sonucun nutella icerdigini test eder...................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1001 amazon arama" name="TC02 amazon java arama" time="17.652">
+        <system-out>
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And java icin arama yapar...................................................passed
+Then sonucun java icerdigini test eder......................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1001 amazon arama" name="TC03 amazon java arama" time="18">
+        <system-out>
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And ipad icin arama yapar...................................................passed
+Then sonucun ipad icerdigini test eder......................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002 amazon Background ile Arama" name="TC04 amazon nutella arama" time="16.148">
+        <system-out>
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And nutella icin arama yapar................................................passed
+Then sonucun nutella icerdigini test eder...................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002 amazon Background ile Arama" name="TC05 amazon java arama" time="17.87">
+        <system-out>
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And java icin arama yapar...................................................passed
+Then sonucun java icerdigini test eder......................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="US1002 amazon Background ile Arama" name="TC06 amazon java arama" time="17.367">
+        <system-out>
+            <![CDATA[When kullanici amazon sayfasina gider.......................................passed
+And ipad icin arama yapar...................................................passed
+Then sonucun ipad icerdigini test eder......................................passed
+And sayfayi kapatir.........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
