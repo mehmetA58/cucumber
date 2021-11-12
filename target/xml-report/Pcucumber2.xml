@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="107.319">
-    <testcase classname="US1003 kullanici istedigi kelime icin arama yapip,sonucu test eder" name="TC07istenen kelimenin oldugunu test etme" time="22.372">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="109.086">
+    <testcase classname="US1003 kullanici istedigi kelime icin arama yapip,sonucu test eder" name="TC07istenen kelimenin oldugunu test etme" time="20.038">
         <system-out>
             <![CDATA[Given kullanici "amazonUrl" sayfasina gider.................................passed
 And "nane" icin arama yapar.................................................passed
@@ -9,7 +9,7 @@ And sayfayi kapatir.........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz" time="17.894">
+    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz" time="18.568">
         <system-out>
             <![CDATA[Given kullanici "amazonUrl" sayfasina gider.................................passed
 Then "nutella" icin arama yapar.............................................passed
@@ -19,7 +19,7 @@ Then sayfayi kapatir........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz 2" time="18.36">
+    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz 2" time="17.767">
         <system-out>
             <![CDATA[Given kullanici "amazonUrl" sayfasina gider.................................passed
 Then "java" icin arama yapar................................................passed
@@ -29,7 +29,7 @@ Then sayfayi kapatir........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz 3" time="17.54">
+    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz 3" time="18.275">
         <system-out>
             <![CDATA[Given kullanici "amazonUrl" sayfasina gider.................................passed
 Then "ipod" icin arama yapar................................................passed
@@ -39,7 +39,7 @@ Then sayfayi kapatir........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz 4" time="15.654">
+    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz 4" time="14.981">
         <system-out>
             <![CDATA[Given kullanici "amazonUrl" sayfasina gider.................................passed
 Then "nane" icin arama yapar................................................passed
@@ -49,7 +49,7 @@ Then sayfayi kapatir........................................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz 5" time="15.078">
+    <testcase classname="US1005 amazonda liste ile arama" name="TC09 amazonda verilen bir listeyi aratıp,var olduklarını test ediniz 5" time="19.038">
         <system-out>
             <![CDATA[Given kullanici "amazonUrl" sayfasina gider.................................passed
 Then "Apple" icin arama yapar...............................................passed
