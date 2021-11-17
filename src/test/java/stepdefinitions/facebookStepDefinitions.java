@@ -10,11 +10,11 @@ public class facebookStepDefinitions {
 FacebookPage facebookPage=new FacebookPage();
 Faker faker=new Faker();
     @Given("facebookEmailTextbox'a email gönder.")
-    public void facebook_email_textbox_a_email_gönder() {
+    public void facebook_email_textbox_a_email_gonder() {
 facebookPage.facebookEmailGiris.sendKeys(faker.internet().emailAddress());
     }
     @Then("facebookSifreTextBox'a sifre gönder.")
-    public void facebook_sifre_text_box_a_sifre_gönder() {
+    public void facebook_sifre_text_box_a_sifre_gonder() {
 facebookPage.facebookPasswordGiris.sendKeys(faker.internet().password());
     }
     @Then("facebookgirisyapbutonunutiklayalim")

@@ -1,6 +1,8 @@
 package stepdefinitions;
 
+import io.cucumber.java.bs.A;
 import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -8,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import pages.GMIBankPage;
+import pages.US3001_Page;
 import utilities.ConfigReader;
 import utilities.Driver;
 
@@ -42,7 +45,7 @@ Assert.assertTrue(gmiBankPage.signOutOnayWebElementi.isDisplayed());
     @Then("gmibank signin butonuna tiklar")
     public void gmibankSigninButonunaTiklar() {
         gmiBankPage.ilkGirisButonu.click();
-        gmiBankPage.signInButonu.click();
+
     }
 
     @And("gmibank username kutusuna {string} yazar")
@@ -140,4 +143,41 @@ Assert.assertTrue(gmiBankPage.signOutOnayWebElementi.isDisplayed());
        Thread.sleep(2000);
         Assert.assertTrue(gmiBankPage.failMessageElementi.isDisplayed());
     }
+US3001_Page us3001_page=new US3001_Page();
+    @Then("gmibank register butonuna tiklar")
+    public void gmibankRegisterButonunaTiklar() {
+        us3001_page.registerButonu.click();
+    }
+
+    @And("gmibank password kutusuna tiklar")
+    public void gmibankPasswordKutusunaTiklar() {
+        us3001_page.passwordKutusu.click();
+    }
+
+    @Given("{string} girer")
+    public void girer(String password) {
+        us3001_page.passwordKutusu.sendKeys(password);
+    }
+
+    @Then("gmibankPasswordStrengthRedGorunur")
+    public void gmibankpasswordstrengthredgorunur() {
+        Assert.assertTrue(us3001_page.red.isDisplayed());
+    }
+
+    @Then("gmibankPasswordStrengthOrangeGorunur")
+    public void gmibankpasswordstrengthorangegorunur() {
+        Assert.assertTrue(us3001_page.orange.isDisplayed());
+    }
+
+    @Then("gmibankPasswordStrengthYellowGorunur")
+    public void gmibankpasswordstrengthyellowgorunur() {
+        Assert.assertTrue(us3001_page.yellow.isDisplayed());
+    }
+
+    @Then("gmibankPasswordStrengthGreenGorunur")
+    public void gmibankpasswordstrengthgreengorunur() {
+        Assert.assertTrue(us3001_page.green.isDisplayed());
+
+    }
+
 }

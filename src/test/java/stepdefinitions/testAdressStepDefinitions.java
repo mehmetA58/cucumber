@@ -17,7 +17,7 @@ import java.util.Set;
 public class testAdressStepDefinitions {
     TestAdresssPage testAdresssPage=new TestAdresssPage();
     @When("Kullanıcı adını girin")
-    public void kullanıcıAdınıGirin() {
+    public void kullaniciAdiniGirin() {
      testAdresssPage.emailTextBox.sendKeys("testtechproed@gmail.com");
     }
     @Then("şifreyi girin")
@@ -26,7 +26,7 @@ public class testAdressStepDefinitions {
 
     }
     @Then("oturum aç \\(sign in)buttonunu tıklayın")
-    public void oturum_aç_sign_in_buttonunu_tıklayın() {
+    public void oturum_ac_sign_in_buttonunu_tiklayin() {
     testAdresssPage.signInGirisButonu.click();
     }
     @Then("Expected user id nin testtechproed@gmail.com oldugunu dogrulayin\\(verify).")
@@ -40,14 +40,14 @@ public class testAdressStepDefinitions {
         System.out.println(links.size());
     }
     @Then("linklerin yazılarını yazdiralim")
-    public void linklerin_yazılarını_yazdiralim() {
+    public void linklerin_yazilarini_yazdiralim() {
         List<WebElement> links = new ArrayList<>(Driver.getDriver().findElements(By.tagName("a")));
         for(WebElement w:links)
             System.out.println(w.getText());
     }
 
     @And("anasayfa sign tıkla")
-    public void anasayfaSignTıkla() {
+    public void anasayfaSignTikla() {
     testAdresssPage.anasayfSignInButonu.click();
     }
 

@@ -42,7 +42,17 @@
             <version>6.10.4</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>8.2.2.jre8</version>
+        </dependency>
     </dependencies>
+
+
+
+
+
     <build>
         <plugins>
             <plugin>
