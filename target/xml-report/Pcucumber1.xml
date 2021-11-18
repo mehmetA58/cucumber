@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.75">
-    <testcase classname="US1012 Kullanici concort Hotel databese'ini test eder" name="TC18 Concort Hotel Database Read Test" time="2.484">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.765">
+    <testcase classname="US1013 Kullanici DB Util ile concort Hotel databese'ini test eder" name="Kullanici tHOTEL tablosundan istedigi Emaili update eder" time="2.484">
         <system-out>
-            <![CDATA[Given kullanici CHQA databeseine baglanir...................................passed
-And kullanici "tHOTELROOM" tablosundaki "Price" verilerini alir.............passed
-And kullanici "Price" sutunundaki verileri okur ve istedigi islemleri yapar.passed
+            <![CDATA[Given kullanici DBUtil ile CHQA databeseine baglanir........................passed
+Then DBU IDHotel degeri 1016 olan kaydin Email degerini "elveda@gmail.com" yapar.passed
 ]]>
         </system-out>
     </testcase>

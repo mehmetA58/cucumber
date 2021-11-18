@@ -3,79 +3,61 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-11-17T10:16:43.081Z",
-        "line": 3,
-        "name": "TC18 Concort Hotel Database Read Test",
+        "start_timestamp": "2021-11-18T08:35:07.642Z",
+        "line": 10,
+        "name": "Kullanici tHOTEL tablosundan istedigi Emaili update eder",
         "description": "",
-        "id": "us1012-kullanici-concort-hotel-databese-ini-test-eder;tc18-concort-hotel-database-read-test",
+        "id": "us1013-kullanici-db-util-ile-concort-hotel-databese-ini-test-eder;kullanici-thotel-tablosundan-istedigi-emaili-update-eder",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1703215200,
+              "duration": 1656335600,
               "status": "passed"
             },
-            "line": 5,
-            "name": "kullanici CHQA databeseine baglanir",
+            "line": 12,
+            "name": "kullanici DBUtil ile CHQA databeseine baglanir",
             "match": {
-              "location": "dbStepdefinitions.DbStepDefinitions.kullanici_chqa_databeseine_baglanir()"
+              "location": "dbStepdefinitions.DbUtilStepDefinitions.kullanici_db_util_ile_chqa_databeseine_baglanir()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 265638800,
+              "duration": 750037800,
               "status": "passed"
             },
-            "line": 6,
-            "name": "kullanici \"tHOTELROOM\" tablosundaki \"Price\" verilerini alir",
+            "line": 13,
+            "name": "DBU IDHotel degeri 1016 olan kaydin Email degerini \"elveda@gmail.com\" yapar",
             "match": {
               "arguments": [
                 {
-                  "val": "\"tHOTELROOM\"",
-                  "offset": 10
+                  "val": "1016",
+                  "offset": 19
                 },
                 {
-                  "val": "\"Price\"",
-                  "offset": 36
+                  "val": "\"elveda@gmail.com\"",
+                  "offset": 51
                 }
               ],
-              "location": "dbStepdefinitions.DbStepDefinitions.kullanici_tablosundaki_verilerini_alir(java.lang.String,java.lang.String)"
+              "location": "dbStepdefinitions.DbUtilStepDefinitions.dbuIDHotelDegeriOlanKaydinEmailDegeriniYapar(int,java.lang.String)"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 437521600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "kullanici \"Price\" sutunundaki verileri okur ve istedigi islemleri yapar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Price\"",
-                  "offset": 10
-                }
-              ],
-              "location": "dbStepdefinitions.DbStepDefinitions.kullanici_sutunundaki_verileri_okur_ve_istedigi_islemleri_yapar(java.lang.String)"
-            },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@db"
+            "name": "@dbupdate"
           }
         ]
       }
     ],
-    "name": "US1012 Kullanici concort Hotel databese\u0027ini test eder",
+    "name": "US1013 Kullanici DB Util ile concort Hotel databese\u0027ini test eder",
     "description": "",
-    "id": "us1012-kullanici-concort-hotel-databese-ini-test-eder",
+    "id": "us1013-kullanici-db-util-ile-concort-hotel-databese-ini-test-eder",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/US1012_DbRead.feature",
+    "uri": "file:src/test/resources/features/US1013_DbUtilTestler.feature",
     "tags": []
   }
 ]
